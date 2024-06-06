@@ -1,11 +1,11 @@
-import {  Text, View } from 'react-native';
+import { Container, Title } from './styles';
 
 export default function Group() {
   return (
-    <View>
-      <Text>Tufao</Text>
+    <Container>
+      <Title>Tufão</Title>
      
-    </View>
+    </Container>
   );
 }
 
