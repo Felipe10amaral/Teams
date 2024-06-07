@@ -1,4 +1,4 @@
-import { ActivityIndicator } from 'react-native';
+import { StatusBar } from 'react-native';
 import { Loading } from './src/Components/Loading';
 
 import Group from './src/Screens/Group';
@@ -14,7 +14,8 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      { fontsLoaded ? <Group /> : <Loading /> }
+      <StatusBar barStyle={'light-content'} />
+        { fontsLoaded ? <Group /> : <Loading /> }
     </ThemeProvider>  
   );
 }
