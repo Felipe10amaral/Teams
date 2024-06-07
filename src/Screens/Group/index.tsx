@@ -1,9 +1,9 @@
-import { Container, Title } from './styles';
+import { Container } from './styles';
 
 export default function Group() {
   return (
     <Container>
-      <Title>Tufão</Title>
+     
      
     </Container>
   );
