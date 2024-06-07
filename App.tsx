@@ -1,4 +1,5 @@
 import { ActivityIndicator } from 'react-native';
+import { Loading } from './src/Components/Loading';
 
 import Group from './src/Screens/Group';
 import {ThemeProvider} from 'styled-components'
@@ -13,7 +14,7 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      { fontsLoaded ? <Group /> : <ActivityIndicator /> }
+      { fontsLoaded ? <Group /> : <Loading /> }
     </ThemeProvider>  
   );
 }
