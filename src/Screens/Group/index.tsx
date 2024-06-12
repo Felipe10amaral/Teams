@@ -6,7 +6,7 @@ import { Container } from './styles';
 export default function Group() {
   return (
     <Container>
-      <Header showBackButton/>
+      <Header />
       
       <Highlight 
         title='Turmas'
