@@ -1,3 +1,4 @@
+import { GroupCard } from '../../Components/GroupCard';
 import { Header } from '../../Components/Header';
 import { Highlight } from '../../Components/Highlight'
 import { Container } from './styles';
@@ -8,9 +9,11 @@ export default function Group() {
       <Header showBackButton/>
       
       <Highlight 
-        title='Tufão'
-        subTitle='Tamires'
+        title='Turmas'
+        subTitle='Jogue com seus amigos'
       />
+
+      <GroupCard title='Galera da ITEC' />
      
     </Container>
   );
