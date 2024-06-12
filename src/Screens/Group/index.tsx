@@ -1,4 +1,5 @@
 import { Header } from '../../Components/Header';
+import { Highlight } from '../../Components/Highlight'
 import { Container } from './styles';
 
 export default function Group() {
@@ -6,6 +7,10 @@ export default function Group() {
     <Container>
       <Header showBackButton/>
       
+      <Highlight 
+        title='Tufão'
+        subTitle='Tamires'
+      />
      
     </Container>
   );
